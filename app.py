@@ -12,7 +12,7 @@ st.title("🏀 NBA Player Performance Analysis")
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("NBA_Player.csv")
+    return pd.read_csv("NBA.csv")
 
 df = load_data()
 
